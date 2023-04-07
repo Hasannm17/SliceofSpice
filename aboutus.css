@@ -1,0 +1,42 @@
+body{
+background-image: url("twos.jpg");
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+height: 150vh;
+}
+p.about
+{
+font-size: 60px;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif;
+font-style: oblique;
+color: rgb(255, 252, 245);
+text-decoration:overline;
+margin-left: 45%;
+padding-top: 100px;
+text-decoration-color:rgb(104, 72, 30);
+text-decoration-thickness:10px;
+
+}
+p.aboutus{
+color: white;
+text-align: center;
+margin-left: 300px;
+font-weight: bold;
+font-size:xx-large;
+margin-right: 300px;
+border: 2px white solid ;
+padding: 40px;
+border-radius: 30px;
+cursor: pointer;
+box-shadow: inset 0 0 0 0 #ffffff;
+-webkit-transition: ease-out 2s;
+-moz-transition: ease-out 2s;
+transition: ease-out 2s;
+
+
+}
+p.aboutus:hover{
+    box-shadow: inset 0 1700px 0 0 #000000;
+}
